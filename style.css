@@ -84,7 +84,7 @@ html {
 .form__error {
     display: none;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 20px;
 	color: #df4b41;
 	text-align: left;
 	font-size: 14px;
