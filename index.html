@@ -31,7 +31,7 @@
                         <span class="form__error">телефон в формате: +7 (123) 456-78-90</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="url" name="name" pattern="" placeholder="Ваш сайт" />
+                        <input class="form__input" type="url" name="name" pattern="^https?:\/\/(?:www\.)?(?:(?:\d{1,3}\.){3}(?:\d{1,3})|(?:\w+\.)+[a-zA-Z]{2,4})(?::\d{4})?(?:\/[\w\/]+#?)*$" placeholder="Ваш сайт" />
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="submit">Отправить</button>
